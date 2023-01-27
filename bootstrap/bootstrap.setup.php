@@ -16,6 +16,8 @@
  * Lock_members=12345A
 [END_COT_EXT]
 [BEGIN_COT_EXT_CONFIG]
+front=01:string::bootstrap-5.3.0-alpha1-dist:
+back=02:string::bootstrap-5.3.0-alpha1-dist:
 [END_COT_EXT_CONFIG]
 ==================== */
 

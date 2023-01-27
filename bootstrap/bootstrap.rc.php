@@ -12,5 +12,11 @@ Hooks=rc
 
 defined('COT_CODE') or die('Wrong URL');
 
-Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css', 'css');
-Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js', 'js');
+if ($env['location'] == 'administration') {
+  Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/'.$cfg['plugin']['bootstrap']['back'].'/css/bootstrap.min.css', 'css');
+  Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/'.$cfg['plugin']['bootstrap']['back'].'/js/bootstrap.bundle.min.js', 'js');
+}
+else {
+  Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/'.$cfg['plugin']['bootstrap']['front'].'/css/bootstrap.min.css', 'css');
+  Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/'.$cfg['plugin']['bootstrap']['front'].'/js/bootstrap.bundle.min.js', 'js');
+}
