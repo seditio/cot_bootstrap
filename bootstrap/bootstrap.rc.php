@@ -12,7 +12,7 @@ Hooks=rc
 
 defined('COT_CODE') or die('Wrong URL');
 
-if ($env['location'] == 'administration') {
+if ($env['ext'] == 'admin') {
   Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/'.$cfg['plugin']['bootstrap']['back'].'/css/bootstrap.min.css', 'css');
   Resources::linkFileFooter($cfg['plugins_dir'].'/bootstrap/'.$cfg['plugin']['bootstrap']['back'].'/js/bootstrap.bundle.min.js', 'js');
 }
