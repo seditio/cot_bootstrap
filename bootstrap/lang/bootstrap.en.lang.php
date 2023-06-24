@@ -1,8 +1,9 @@
 <?php
-
 /**
- * Bootstrap Plugin / English Locale
  * @package bootstrap
+ * @version 1.00
+ * @author Dmitri Beliavski
+ * @copyright Copyright (c) seditio.by 2017-2023
  */
 
 defined('COT_CODE') or die('Wrong URL.');
