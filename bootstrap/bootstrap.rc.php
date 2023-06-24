@@ -7,7 +7,7 @@ Hooks=rc
 
 /**
  * @package bootstrap
- * @version 1.00
+ * @version 1.01
  * @author Dmitri Beliavski
  * @copyright Copyright (c) seditio.by 2017-2023
  */

@@ -5,7 +5,7 @@ Code=bootstrap
 Name=[SEDBY] Bootstrap
 Category=misc-ext
 Description=Bootstrap support
-Version=1.00
+Version=1.01
 Date=2023-01-25
 Author=Dmitri Beliavski
 Copyright=&copy; 2023 Seditio.By
@@ -25,7 +25,7 @@ defined('COT_CODE') or die('Wrong URL');
 
 /**
  * @package bootstrap
- * @version 1.00
+ * @version 1.01
  * @author Dmitri Beliavski
  * @copyright Copyright (c) seditio.by 2017-2023
  */
